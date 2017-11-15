@@ -1,0 +1,637 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E3B1527F1FBC168C00536E8D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E3B1527E1FBC168C00536E8D /* AppDelegate.m */; };
+		E3B152821FBC168C00536E8D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E3B152811FBC168C00536E8D /* ViewController.m */; };
+		E3B152851FBC168C00536E8D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E3B152831FBC168C00536E8D /* Main.storyboard */; };
+		E3B152871FBC168C00536E8D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E3B152861FBC168C00536E8D /* Assets.xcassets */; };
+		E3B1528A1FBC168C00536E8D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E3B152881FBC168C00536E8D /* LaunchScreen.storyboard */; };
+		E3B1528D1FBC168C00536E8D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E3B1528C1FBC168C00536E8D /* main.m */; };
+		E3B152971FBC168C00536E8D /* KeyboardTextFieldTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E3B152961FBC168C00536E8D /* KeyboardTextFieldTests.m */; };
+		E3B152A21FBC168C00536E8D /* KeyboardTextFieldUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E3B152A11FBC168C00536E8D /* KeyboardTextFieldUITests.m */; };
+		E3B152B71FBC170300536E8D /* UITextView+Placeholder.m in Sources */ = {isa = PBXBuildFile; fileRef = E3B152B21FBC170300536E8D /* UITextView+Placeholder.m */; };
+		E3B152BD1FBC179700536E8D /* TableKeyboardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E3B152BB1FBC179700536E8D /* TableKeyboardViewController.m */; };
+		E3B152BE1FBC179700536E8D /* TableKeyboardViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E3B152BC1FBC179700536E8D /* TableKeyboardViewController.xib */; };
+		E3B152C51FBC184A00536E8D /* TextFieldTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E3B152C31FBC184A00536E8D /* TextFieldTableViewCell.m */; };
+		E3B152C61FBC184A00536E8D /* TextFieldTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E3B152C41FBC184A00536E8D /* TextFieldTableViewCell.xib */; };
+		E3B152CA1FBC185D00536E8D /* TextViewTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E3B152C81FBC185D00536E8D /* TextViewTableViewCell.m */; };
+		E3B152CB1FBC185E00536E8D /* TextViewTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E3B152C91FBC185D00536E8D /* TextViewTableViewCell.xib */; };
+		E3B152D81FBC18EC00536E8D /* HWKeyBoardTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = E3B152D71FBC18EC00536E8D /* HWKeyBoardTextField.m */; };
+		E3B152DB1FBC190000536E8D /* HWKeyBoardTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = E3B152DA1FBC190000536E8D /* HWKeyBoardTextView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E3B152931FBC168C00536E8D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E3B152721FBC168C00536E8D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E3B152791FBC168C00536E8D;
+			remoteInfo = KeyboardTextField;
+		};
+		E3B1529E1FBC168C00536E8D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E3B152721FBC168C00536E8D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E3B152791FBC168C00536E8D;
+			remoteInfo = KeyboardTextField;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E3B1527A1FBC168C00536E8D /* KeyboardTextField.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KeyboardTextField.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E3B1527D1FBC168C00536E8D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E3B1527E1FBC168C00536E8D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E3B152801FBC168C00536E8D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E3B152811FBC168C00536E8D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E3B152841FBC168C00536E8D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E3B152861FBC168C00536E8D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E3B152891FBC168C00536E8D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E3B1528B1FBC168C00536E8D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E3B1528C1FBC168C00536E8D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E3B152921FBC168C00536E8D /* KeyboardTextFieldTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KeyboardTextFieldTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E3B152961FBC168C00536E8D /* KeyboardTextFieldTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KeyboardTextFieldTests.m; sourceTree = "<group>"; };
+		E3B152981FBC168C00536E8D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E3B1529D1FBC168C00536E8D /* KeyboardTextFieldUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KeyboardTextFieldUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E3B152A11FBC168C00536E8D /* KeyboardTextFieldUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KeyboardTextFieldUITests.m; sourceTree = "<group>"; };
+		E3B152A31FBC168C00536E8D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E3B152B21FBC170300536E8D /* UITextView+Placeholder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextView+Placeholder.m"; sourceTree = "<group>"; };
+		E3B152B41FBC170300536E8D /* UITextView+Placeholder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextView+Placeholder.h"; sourceTree = "<group>"; };
+		E3B152BA1FBC179700536E8D /* TableKeyboardViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TableKeyboardViewController.h; sourceTree = "<group>"; };
+		E3B152BB1FBC179700536E8D /* TableKeyboardViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TableKeyboardViewController.m; sourceTree = "<group>"; };
+		E3B152BC1FBC179700536E8D /* TableKeyboardViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TableKeyboardViewController.xib; sourceTree = "<group>"; };
+		E3B152C21FBC184A00536E8D /* TextFieldTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TextFieldTableViewCell.h; sourceTree = "<group>"; };
+		E3B152C31FBC184A00536E8D /* TextFieldTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TextFieldTableViewCell.m; sourceTree = "<group>"; };
+		E3B152C41FBC184A00536E8D /* TextFieldTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TextFieldTableViewCell.xib; sourceTree = "<group>"; };
+		E3B152C71FBC185D00536E8D /* TextViewTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TextViewTableViewCell.h; sourceTree = "<group>"; };
+		E3B152C81FBC185D00536E8D /* TextViewTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TextViewTableViewCell.m; sourceTree = "<group>"; };
+		E3B152C91FBC185D00536E8D /* TextViewTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TextViewTableViewCell.xib; sourceTree = "<group>"; };
+		E3B152D61FBC18EC00536E8D /* HWKeyBoardTextField.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HWKeyBoardTextField.h; sourceTree = "<group>"; };
+		E3B152D71FBC18EC00536E8D /* HWKeyBoardTextField.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HWKeyBoardTextField.m; sourceTree = "<group>"; };
+		E3B152D91FBC190000536E8D /* HWKeyBoardTextView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HWKeyBoardTextView.h; sourceTree = "<group>"; };
+		E3B152DA1FBC190000536E8D /* HWKeyBoardTextView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HWKeyBoardTextView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E3B152771FBC168C00536E8D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3B1528F1FBC168C00536E8D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3B1529A1FBC168C00536E8D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E3B152711FBC168C00536E8D = {
+			isa = PBXGroup;
+			children = (
+				E3B1527C1FBC168C00536E8D /* KeyboardTextField */,
+				E3B152951FBC168C00536E8D /* KeyboardTextFieldTests */,
+				E3B152A01FBC168C00536E8D /* KeyboardTextFieldUITests */,
+				E3B1527B1FBC168C00536E8D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E3B1527B1FBC168C00536E8D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E3B1527A1FBC168C00536E8D /* KeyboardTextField.app */,
+				E3B152921FBC168C00536E8D /* KeyboardTextFieldTests.xctest */,
+				E3B1529D1FBC168C00536E8D /* KeyboardTextFieldUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E3B1527C1FBC168C00536E8D /* KeyboardTextField */ = {
+			isa = PBXGroup;
+			children = (
+				E3B1527D1FBC168C00536E8D /* AppDelegate.h */,
+				E3B1527E1FBC168C00536E8D /* AppDelegate.m */,
+				E3B152801FBC168C00536E8D /* ViewController.h */,
+				E3B152811FBC168C00536E8D /* ViewController.m */,
+				E3B152B91FBC174100536E8D /* Sample */,
+				E3B152AF1FBC16D200536E8D /* HWKeyBoardTextField */,
+				E3B152831FBC168C00536E8D /* Main.storyboard */,
+				E3B152861FBC168C00536E8D /* Assets.xcassets */,
+				E3B152881FBC168C00536E8D /* LaunchScreen.storyboard */,
+				E3B1528B1FBC168C00536E8D /* Info.plist */,
+				E3B1528C1FBC168C00536E8D /* main.m */,
+			);
+			path = KeyboardTextField;
+			sourceTree = "<group>";
+		};
+		E3B152951FBC168C00536E8D /* KeyboardTextFieldTests */ = {
+			isa = PBXGroup;
+			children = (
+				E3B152961FBC168C00536E8D /* KeyboardTextFieldTests.m */,
+				E3B152981FBC168C00536E8D /* Info.plist */,
+			);
+			path = KeyboardTextFieldTests;
+			sourceTree = "<group>";
+		};
+		E3B152A01FBC168C00536E8D /* KeyboardTextFieldUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E3B152A11FBC168C00536E8D /* KeyboardTextFieldUITests.m */,
+				E3B152A31FBC168C00536E8D /* Info.plist */,
+			);
+			path = KeyboardTextFieldUITests;
+			sourceTree = "<group>";
+		};
+		E3B152AF1FBC16D200536E8D /* HWKeyBoardTextField */ = {
+			isa = PBXGroup;
+			children = (
+				E3B152B41FBC170300536E8D /* UITextView+Placeholder.h */,
+				E3B152B21FBC170300536E8D /* UITextView+Placeholder.m */,
+				E3B152D61FBC18EC00536E8D /* HWKeyBoardTextField.h */,
+				E3B152D71FBC18EC00536E8D /* HWKeyBoardTextField.m */,
+				E3B152D91FBC190000536E8D /* HWKeyBoardTextView.h */,
+				E3B152DA1FBC190000536E8D /* HWKeyBoardTextView.m */,
+			);
+			path = HWKeyBoardTextField;
+			sourceTree = "<group>";
+		};
+		E3B152B91FBC174100536E8D /* Sample */ = {
+			isa = PBXGroup;
+			children = (
+				E3B152C11FBC180000536E8D /* Cell */,
+				E3B152BF1FBC17ED00536E8D /* Controller */,
+			);
+			path = Sample;
+			sourceTree = "<group>";
+		};
+		E3B152BF1FBC17ED00536E8D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				E3B152BA1FBC179700536E8D /* TableKeyboardViewController.h */,
+				E3B152BB1FBC179700536E8D /* TableKeyboardViewController.m */,
+				E3B152BC1FBC179700536E8D /* TableKeyboardViewController.xib */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		E3B152C11FBC180000536E8D /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				E3B152C21FBC184A00536E8D /* TextFieldTableViewCell.h */,
+				E3B152C31FBC184A00536E8D /* TextFieldTableViewCell.m */,
+				E3B152C41FBC184A00536E8D /* TextFieldTableViewCell.xib */,
+				E3B152C71FBC185D00536E8D /* TextViewTableViewCell.h */,
+				E3B152C81FBC185D00536E8D /* TextViewTableViewCell.m */,
+				E3B152C91FBC185D00536E8D /* TextViewTableViewCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E3B152791FBC168C00536E8D /* KeyboardTextField */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E3B152A61FBC168C00536E8D /* Build configuration list for PBXNativeTarget "KeyboardTextField" */;
+			buildPhases = (
+				E3B152761FBC168C00536E8D /* Sources */,
+				E3B152771FBC168C00536E8D /* Frameworks */,
+				E3B152781FBC168C00536E8D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KeyboardTextField;
+			productName = KeyboardTextField;
+			productReference = E3B1527A1FBC168C00536E8D /* KeyboardTextField.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E3B152911FBC168C00536E8D /* KeyboardTextFieldTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E3B152A91FBC168C00536E8D /* Build configuration list for PBXNativeTarget "KeyboardTextFieldTests" */;
+			buildPhases = (
+				E3B1528E1FBC168C00536E8D /* Sources */,
+				E3B1528F1FBC168C00536E8D /* Frameworks */,
+				E3B152901FBC168C00536E8D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E3B152941FBC168C00536E8D /* PBXTargetDependency */,
+			);
+			name = KeyboardTextFieldTests;
+			productName = KeyboardTextFieldTests;
+			productReference = E3B152921FBC168C00536E8D /* KeyboardTextFieldTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E3B1529C1FBC168C00536E8D /* KeyboardTextFieldUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E3B152AC1FBC168C00536E8D /* Build configuration list for PBXNativeTarget "KeyboardTextFieldUITests" */;
+			buildPhases = (
+				E3B152991FBC168C00536E8D /* Sources */,
+				E3B1529A1FBC168C00536E8D /* Frameworks */,
+				E3B1529B1FBC168C00536E8D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E3B1529F1FBC168C00536E8D /* PBXTargetDependency */,
+			);
+			name = KeyboardTextFieldUITests;
+			productName = KeyboardTextFieldUITests;
+			productReference = E3B1529D1FBC168C00536E8D /* KeyboardTextFieldUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E3B152721FBC168C00536E8D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = "黄秋伟";
+				TargetAttributes = {
+					E3B152791FBC168C00536E8D = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+					E3B152911FBC168C00536E8D = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = E3B152791FBC168C00536E8D;
+					};
+					E3B1529C1FBC168C00536E8D = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = E3B152791FBC168C00536E8D;
+					};
+				};
+			};
+			buildConfigurationList = E3B152751FBC168C00536E8D /* Build configuration list for PBXProject "KeyboardTextField" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E3B152711FBC168C00536E8D;
+			productRefGroup = E3B1527B1FBC168C00536E8D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E3B152791FBC168C00536E8D /* KeyboardTextField */,
+				E3B152911FBC168C00536E8D /* KeyboardTextFieldTests */,
+				E3B1529C1FBC168C00536E8D /* KeyboardTextFieldUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E3B152781FBC168C00536E8D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3B152BE1FBC179700536E8D /* TableKeyboardViewController.xib in Resources */,
+				E3B152CB1FBC185E00536E8D /* TextViewTableViewCell.xib in Resources */,
+				E3B1528A1FBC168C00536E8D /* LaunchScreen.storyboard in Resources */,
+				E3B152C61FBC184A00536E8D /* TextFieldTableViewCell.xib in Resources */,
+				E3B152871FBC168C00536E8D /* Assets.xcassets in Resources */,
+				E3B152851FBC168C00536E8D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3B152901FBC168C00536E8D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3B1529B1FBC168C00536E8D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E3B152761FBC168C00536E8D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3B152821FBC168C00536E8D /* ViewController.m in Sources */,
+				E3B1528D1FBC168C00536E8D /* main.m in Sources */,
+				E3B152BD1FBC179700536E8D /* TableKeyboardViewController.m in Sources */,
+				E3B152DB1FBC190000536E8D /* HWKeyBoardTextView.m in Sources */,
+				E3B152D81FBC18EC00536E8D /* HWKeyBoardTextField.m in Sources */,
+				E3B152B71FBC170300536E8D /* UITextView+Placeholder.m in Sources */,
+				E3B1527F1FBC168C00536E8D /* AppDelegate.m in Sources */,
+				E3B152CA1FBC185D00536E8D /* TextViewTableViewCell.m in Sources */,
+				E3B152C51FBC184A00536E8D /* TextFieldTableViewCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3B1528E1FBC168C00536E8D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3B152971FBC168C00536E8D /* KeyboardTextFieldTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3B152991FBC168C00536E8D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3B152A21FBC168C00536E8D /* KeyboardTextFieldUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E3B152941FBC168C00536E8D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E3B152791FBC168C00536E8D /* KeyboardTextField */;
+			targetProxy = E3B152931FBC168C00536E8D /* PBXContainerItemProxy */;
+		};
+		E3B1529F1FBC168C00536E8D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E3B152791FBC168C00536E8D /* KeyboardTextField */;
+			targetProxy = E3B1529E1FBC168C00536E8D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E3B152831FBC168C00536E8D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E3B152841FBC168C00536E8D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E3B152881FBC168C00536E8D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E3B152891FBC168C00536E8D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E3B152A41FBC168C00536E8D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E3B152A51FBC168C00536E8D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E3B152A71FBC168C00536E8D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 86454RXYT3;
+				INFOPLIST_FILE = KeyboardTextField/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = examples.KeyboardTextField;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E3B152A81FBC168C00536E8D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 86454RXYT3;
+				INFOPLIST_FILE = KeyboardTextField/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = examples.KeyboardTextField;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E3B152AA1FBC168C00536E8D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = KeyboardTextFieldTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = examples.KeyboardTextFieldTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KeyboardTextField.app/KeyboardTextField";
+			};
+			name = Debug;
+		};
+		E3B152AB1FBC168C00536E8D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = KeyboardTextFieldTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = examples.KeyboardTextFieldTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KeyboardTextField.app/KeyboardTextField";
+			};
+			name = Release;
+		};
+		E3B152AD1FBC168C00536E8D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = KeyboardTextFieldUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = examples.KeyboardTextFieldUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KeyboardTextField;
+			};
+			name = Debug;
+		};
+		E3B152AE1FBC168C00536E8D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = KeyboardTextFieldUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = examples.KeyboardTextFieldUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KeyboardTextField;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E3B152751FBC168C00536E8D /* Build configuration list for PBXProject "KeyboardTextField" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E3B152A41FBC168C00536E8D /* Debug */,
+				E3B152A51FBC168C00536E8D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E3B152A61FBC168C00536E8D /* Build configuration list for PBXNativeTarget "KeyboardTextField" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E3B152A71FBC168C00536E8D /* Debug */,
+				E3B152A81FBC168C00536E8D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E3B152A91FBC168C00536E8D /* Build configuration list for PBXNativeTarget "KeyboardTextFieldTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E3B152AA1FBC168C00536E8D /* Debug */,
+				E3B152AB1FBC168C00536E8D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E3B152AC1FBC168C00536E8D /* Build configuration list for PBXNativeTarget "KeyboardTextFieldUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E3B152AD1FBC168C00536E8D /* Debug */,
+				E3B152AE1FBC168C00536E8D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E3B152721FBC168C00536E8D /* Project object */;
+}
