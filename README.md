@@ -5,6 +5,8 @@
 * 怎样优化代码可读性
 * 减少冗余的代码操作
 
+![效果展示图](https://github.com/hqwsun/img-folder/blob/master/KeyBoardTextField/123.gif)
+
 ### * HWKeyboardTextField
 对于输入文本框可以说是基本常用到的控件，
 但是系统自带控件UITextView和UITextField并没有对弹出键盘和遮盖等一系列操作进行封装。
