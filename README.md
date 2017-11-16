@@ -11,7 +11,7 @@ HWKeyboardTextField 考虑到开发效率和优化代码，将这些处理进行
 ```
 
 可适用各种界面，如scrollView，tableView甚至嵌套叠加界面，并用runtime为textView添加类别一个placeHold属性(UITextView 无法直接使用)。
-代码已上传是github——[HWKeyboardTextField](https://github.com/hqwsun/HWKeyboardTextField)
+
 
 ### 结束语
 喜欢的可以给个星哈！！！
